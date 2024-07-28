@@ -64,7 +64,7 @@ section {
     position: sticky;
     top: 0; left: 0; right: 0;
     z-index: 1000 !important;
-    background: var(--white);
+    background: rgb(68, 68, 235);
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -128,13 +128,13 @@ section {
 .home .slide .content span{
     display: block;
     font-size: 3rem;
-    color: var(--white);
+    color: rgb(88, 88, 216);
     padding-bottom: 1rem;
     animation: fade .3s linear backwards .2s;
 }
 .home .slide .content h3{
     font-size: 6vw;
-    color: rgb(88, 88, 216);;
+    color: rgb(88, 88, 216);
     text-transform: uppercase;
     line-height: 1;
     text-shadow: var(--text-shadow);
