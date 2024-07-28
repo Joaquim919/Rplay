@@ -1,12 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <img src="images/manutencao.png" alt="">
-</head>
-<body>
     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R | play</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.0/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<style>
+    body{
+        background-color: rgb(10, 10, 66);
+    }
+</style>
+
+<body>
+    <!-- Section de l'entête -->
+    <section class="header">
+        <a href="#" class="logo">Rplay</a>
+
+        <!--<nav class="navbar">
+            <a href="#">Início</a>
+            <a href="#">a propos</a>
+            <a href="#">paquets</a>
+            <a href="#offer">reservation</a>
+        </nav>-->
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </section>
+
+    <!-- section de la banniere -->
+    <section class="home">
+        <div class="home-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="slide swiper-slide" style="background: url(images/capa1.png) no-repeat;">
+                    <div class="content">
+                        <span>Em Breve na nossa Plataforma</span>
+                        <h3>Divertida Mente 2.</h3>
+                        <!--<a href="#" class="btn">découvrir plus</a>-->
+                    </div>
+                </div>
+                <div class="slide swiper-slide" style="background: url(images/capa2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>Disponível em nossa plataforma</span>
+                        <h3>Carga Explosiva 3.</h3>
+                        <!--<a href="#" class="btn">découvrir plus</a>-->
+                    </div>
+                </div>
+                <div class="slide swiper-slide" style="background: url(images/capa3.jpg) no-repeat;">
+                    <div class="content" >
+                        <span>Já Disponível</span>
+                        <h3>O menino que descobriu o vento.</h3>
+                        <!--<a href="#" class="btn">découvrir plus</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Section des services -->
+    <section class="services">
+        <h1 class="heading-title">Nossos Serviços</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/icon1.png" alt="">
+                <h3>IP TV</h3>
+            </div>
+            <div class="box">
+                <img src="images/icon2.png" alt="">
+                <h3>Filmes fresquinhos</h3>
+            </div>
+            <div class="box">
+                <img src="images/icon3.png" alt="">
+                <h3>Séries Viciantes</h3>
+            </div>
+            <div class="box">
+                <img src="images/icon4.png" alt="">
+                <h3>Canais Filmes e Séries</h3>
+            </div>
+            <div class="box">
+                <img src="images/icon5.png" alt="">
+                <h3>Imagem de Cinema</h3>
+            </div>
+            <div class="box">
+                <img src="images/icon6.webp" alt="">
+                <h3>Gratis por 4 Horas</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- section de apropos -->
+    <section class="home-about">
+        <div class="image">
+            <img src="images/apresentacao.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Rplay</h3>
+            <p>Chega de pagar caro por TV a cabo, nosso servidor tem planos que cabem no seu bolso, Filmes fresquinhos Séries viciantes, Canais ao Vivo Tudo num Clique.</p>
+            <p>Filmes e Séries em alta definição, séries exclusivas, filmes lançamentos, maior grade do mercado sem travamentos e com o menor preço.</p>
+            <p>1 Tela 30 R$ | 2 Telas por apenas 50 R$</p>
+            <p>Teste grátis por 4 Horas.</p>
+            <p>Entre em contato conosco e faça um teste grátis.</p>
+            <a href="https://api.whatsapp.com/send?phone=5586981203797" target="_blank"><img src="images/zap.png"alt="whatsapp" width="70px" height="70px"></a>
+
+
+            <!--<a href="https://web.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>-->
+        </div>
+        
+        <video src="images/videoapresentacao.mp4"
+        controls
+        width="300"
+        autoplay
+        muted
+        
+        >
+        </video>
+        <video src="images/videoapresentacao1.mp4"
+        controls
+        width="300"
+        autoplay
+        muted
+        >
+        </video>
+
+    </section>
+
+    <!-- Section de nos paquets -->
+    <section class="home-packages">
+        <h1 class="heading-title">Vem ser Rplay voçê tambem.</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Filmes fresquinhos</h3>
+                    <p>Sabe aquele filme que ta em alta no cinema?a Rplay te deixa por dentro de todos os lançamentos Aproveite agora mesmo nossa oferta especial.</p>
+                    <!--<a href="#" class="btn">reservez maintenant</a>-->
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Séries viciantes</h3>
+                    <p>Séries premiadas e aclamadas pelo público sem pagar nem uma taxa de cancelamento e sem burocracia, isso é Rplay.</p>
+                    <!--<a href="#" class="btn">reservez maintenant</a>-->
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Canais ao vivo</h3>
+                    <p>Não tem como ficar de fora dessa, não é mesmo? Assine Rplay e fique em dia com a sua programação favorita.</p>
+                    <!--<a href="#" class="btn">reservez maintenant</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="load-more"><a href="https://api.whatsapp.com/send?phone=5586981203797" target="_blank" class="btn">Testar Gratis</a>
+    </section>
+
+    <!-- Section des offres -->
+    <section class="home-offer" id="offer">
+        <div class="content">
+            <h3>Teste Gratis por 4 Horas, sem compromisso.</h3>
+            <p>Com o Rplay, os membros play podem assistir os canais que amam sem compromissos de longo prazo, podendo cancelar a qualquer momento. Experimente por 30 dias grátis e assista a tudo no mesmo lugar, onde quer que esteja.</p>
+            <a href="https://aftv.news/524463" target="_blank" class="btn">Baixe e teste gratis por 4 horas.</a>
+        </div>
+    </section>
+
+    <!-- section du pide de la page -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Nossos Serviços</h3>
+                <a href="#"><i class="fas fa-angle-right    "></i>IP TV </a>
+                <a href="#"><i class="fas fa-angle-right    "></i>Filmes </a>
+                <a href="#"><i class="fas fa-angle-right    "></i>Séries </a>
+                <a href="#"><i class="fas fa-angle-right    "></i>Esportes </a>
+            </div>
+            <div class="box">
+                <h3>Valores</h3>
+                <a href="#"><i class="fas fa-angle-right    "></i>Teste gratis por 4 Horas </a>
+                <a href="#"><i class="fas fa-angle-right    "></i>1 Tela por 30 R$</a>
+                <a href="#"><i class="fas fa-angle-right    "></i>2 Telas por apenas 50 R$ </a>
+                <a href="#"><i class="fas fa-angle-right    "></i>Sem taxa de cancelamento </a>
+            </div>
+            <div class="box">
+                <h3>Contato</h3>
+                <a href="#"><i class="fas fa-phone    "></i>86995941992 </a>
+                <a href="#"><i class="fas fa-phone    "></i>86995941992 </a>
+                <a href="#"><i class="fas fa-envelope    "></i>@rplay.com </a>
+                <a href="#"><i class="fas fa-map    "></i>Teresina - PI </a>
+            </div>
+            <div class="box">
+                <h3>Redes Sociais</h3>
+                <a href="#"><i class="fab fa-facebook    "></i>facebook </a>
+                <a href="#"><i class="fab fa-twitter    "></i>twitter </a>
+                <a href="#"><i class="fab fa-instagram    "></i>instagram </a>
+                <a href="#"><i class="fab fa-whatsapp    "></i>whatsapp </a>
+            </div>
+        </div>
+        <div class="home-right">
+            R play <span>Teresina PI</span> | Todos os direitos reservados.
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.0/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
